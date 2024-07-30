@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "k",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_k",
+						"type": "int256"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"transc.sol": "Trans"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"transc.sol": {
+			"keccak256": "0xffc8e8657a1e138443e86f5f19f31eacbae7b4b16d9d1fc65a4194647fb18f83",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cda277970e5bd47351d694ac5772bd1abb75bd0a4988301f054d54d4c01293f2",
+				"dweb:/ipfs/Qmba6MdF6cNRebjFJxyz7uYuJJxvYX9k3eAFdMRirfCMPi"
+			]
+		}
+	},
+	"version": 1
+}
